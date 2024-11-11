@@ -6,7 +6,7 @@ int divisor(int arr[], int n) {
         int min = i;
         for (int j = i + 1; j < n; j++) {
             if (arr[j] < arr[min]) {
-                minIndex = j;
+                min = j;
             }
         }
         int temp = arr[i];
